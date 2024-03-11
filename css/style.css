@@ -39,12 +39,13 @@ a {
     display: flex;
     flex-wrap: wrap-reverse;
     justify-content: space-between;
+	margin: 0 50px;
 }
 
 .logo-booki {
     width: 61.09px;
     height: 19px;
-    padding: 30px;
+    padding: 30px 0;
     display: flex;
 }
 
@@ -363,7 +364,7 @@ main {
 
 /* Activities */
 .activities {
-    padding: 30px;
+	margin: 50px;
 }
 
 .activities h2 {
@@ -445,6 +446,15 @@ main {
         align-items: flex-start;
         gap: 20px;
     }
+	
+	.filter-buttons button {
+		margin: 0;
+		margin-right: 10px;
+	}
+	
+	.filter-title {
+		font-size: 15px;
+	}
 
     .hebergements-and-populaires {
         flex-direction: column;
@@ -476,10 +486,6 @@ main {
 
     .populaires-cards .card-subtitle {
         font-size: 13px;
-    }
-
-    .activities {
-        margin: 50px;
     }
 
     .activities-card {
@@ -518,6 +524,7 @@ main {
         display: flex;
         flex-direction: column;
         align-items: center;
+		margin: 0;
     }
 
     .header-container ul {
@@ -618,7 +625,16 @@ main {
     .filter-buttons button {
         margin: 0;
         width: 100%;
+		padding: 4px 15px;
     }
+	
+	.filter-buttons i {
+		width: 30px;
+	}
+	
+	.filter-title {
+		font-size: 12px;
+	}
 
     .buttons-group {
         display: flex;
@@ -665,7 +681,7 @@ main {
     }
 
     .activities {
-        margin: 0;
+        margin: 20px;
     }
 
     .activities-card {
