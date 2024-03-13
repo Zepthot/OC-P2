@@ -326,9 +326,16 @@ main {
     align-items: center;
 }
 
+.populaires-cards {
+	display: flex;
+	flex-direction: column;
+	gap: 33px;
+	justify-content: space-evenly;
+	height: 100%;
+}
+
 .populaires-cards .card {
     display: flex;
-    margin-top: 33px;
 }
 
 .populaires-cards img {
@@ -365,6 +372,7 @@ main {
 /* Activities */
 .activities {
 	margin: 50px;
+	padding: 30px;
 }
 
 .activities h2 {
@@ -682,6 +690,7 @@ main {
 
     .activities {
         margin: 20px;
+		padding: 0;
     }
 
     .activities-card {
